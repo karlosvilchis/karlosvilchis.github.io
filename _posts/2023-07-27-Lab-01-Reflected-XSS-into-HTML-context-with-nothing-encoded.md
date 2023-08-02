@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lab:01 Reflected XSS into HTML context with nothing encoded
-published: false
+published: true
 permalink: /lab-01-xss/
 ---
 **¡Saludos, apasionados del hacking ético! Hoy me complace darles la bienvenida a mi ruta de aprendizaje.
