@@ -1,13 +1,41 @@
 ---
 layout: default
+title: Bienvenido a mi ruta de aprendizaje
 ---
 
-<ul>
-    {% for post in paginator.posts %}
-      <li>
-          <h2><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h2>
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
-          <p>{{ post.content | strip_html | truncatewords:50 }}</p>
-      </li>
-    {% endfor %}
-</ul>
+<!DOCTYPE html>
+<html>
+<head>
+  {% include head.html %}
+  <title>{{ page.title }}</title>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <!-- Logo -->
+  <div class="logo">
+    <a href="/">
+      <img src="/images/miPerfil/yo.jpg" alt="Tu Logo" style="max-width: 100px;"  class="circular-logo" />
+    </a>
+  </div>
+
+  <!-- Navigation Menu -->
+  <div class="menu">
+    <ul>
+      <li><a href="/">Inicio</a></li>
+      <li><a href="vulnerabilidades.html">Vulnerabilidades</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="content">
+  <!-- Introducción o información relevante -->
+  <h1>Bienvenido a mi ruta de aprendizaje</h1>
+  <p>Esta página fue creada para ir viendo mi progreso sobre vulnerabilidades específicas, ya que me llama mucho la atención el tema de hacking web, e iré mostrando
+   la ruta que llevo para obtener el conocimiento necesario para poder detectarlas y explotarlas.</p>
+</div>
+
+</body>
+</html>

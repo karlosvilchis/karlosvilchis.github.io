@@ -271,3 +271,10 @@ a:active, a:focus {
 #wrapper {
   min-height: calc(100vh - 100px);
 }
+
+/* Estilo para el logo circular */
+.circular-logo {
+  max-width: 100px; /* Ajusta el tamaño del logo como desees */
+  border-radius: 50%; /* Hace que el logo tenga forma circular */
+  overflow: hidden; /* Oculta cualquier parte del logo que esté fuera del círculo */
+}
