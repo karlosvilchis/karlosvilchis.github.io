@@ -1,6 +1,6 @@
 ---
 title: Lab:02 Stored XSS into HTML context with nothing encoded
-published: false
+published: true
 ---
 
 En este laboratorio aprenderemos que es un Stored XSS (XSS Almacenado)
