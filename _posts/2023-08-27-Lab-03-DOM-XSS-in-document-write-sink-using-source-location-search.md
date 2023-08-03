@@ -1,6 +1,6 @@
 ---
 title: Lab:03 DOM XSS in document.write sink using source location.search
-published: false
+published: true
 ---
 En este laboratorio aprenderemos que es un DOM-based XSS.
 [PortSwigger](https://portswigger.net/web-security/cross-site-scripting/dom-based) proporciona una explicación de cómo funciona esta vulnerabilidad.
