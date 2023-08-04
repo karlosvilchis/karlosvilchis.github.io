@@ -1,6 +1,6 @@
 ---
 title: Lab:04 DOM XSS in document.write sink using source location.search inside a select element
-published: false
+published: true
 ---
 [PortSwigger](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink-inside-select-element) Nos proporciona otro laboratorio de DOM-based XSS.
 
