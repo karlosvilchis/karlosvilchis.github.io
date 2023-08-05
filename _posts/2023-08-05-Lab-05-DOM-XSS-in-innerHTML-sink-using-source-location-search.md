@@ -1,6 +1,6 @@
 ---
 title: Lab:05 DOM XSS in innerHTML sink using source location.search
-published: false
+published: true
 ---
 [PortSwigger](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-innerhtml-sink) Portswigger nos da otro laboratorio de DOM XSS
 para reforzar el funcionamiento de esta vulnerabilidad; observemos la descripción:
