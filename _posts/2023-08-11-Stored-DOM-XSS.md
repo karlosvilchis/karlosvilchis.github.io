@@ -14,11 +14,11 @@ Iniciando el laboratorio, nos encontramos con la siguiente página web:
 
 Al parecer, hay unos campos de entrada al abrir cualquier publicación donde el usuario puede ingresar un comentario, su nombre, correo electrónico y su sitio web.
 
-![](/images/images_XSS010/images2.png)
+![](/images/images_XSS10/images2.png)
 
 Rellenemos los campos de entrada para ver cómo se procesan los datos una vez enviados.
 
-![](/images/images_XSS010/images3.png)
+![](/images/images_XSS10/images3.png)
 
 Utilizando la herramienta de desarrollo en la pestaña **'Network'**, observamos la presencia de un archivo js **loadCommentsWithVulnerableEscapeHtml.js**, 
 
