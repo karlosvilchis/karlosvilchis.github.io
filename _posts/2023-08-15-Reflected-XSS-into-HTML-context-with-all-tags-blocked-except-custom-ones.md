@@ -1,5 +1,5 @@
 ---
-title: Lab:11 Reflected XSS into HTML context with most tags and attributes blocked
+title: Lab:12 Reflected XSS into HTML context with all tags blocked except custom ones
 published: true
 ---
 
